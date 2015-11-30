@@ -36,3 +36,4 @@ $yum install 'graphviz*'
 
 $gem install gviz
 
+note: to test with known data, rename the i4_processes_simple or i4_processes_complex to ip_processes and comment out the line that does the lsof
