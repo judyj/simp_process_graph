@@ -13,14 +13,15 @@ Files included
 * graph_ip_process.rb - ruby code to create the plots
 
   note - there are 2 lines that would be most commonly commented out:
-  comment out for a test file (would be called i4_processes)
   
-  system ("lsof -i4 -n > #{infile}")
+  Comment out for a test file (would be called i4_processes)
+  
+      system ("lsof -i4 -n > #{infile}")
 
   Conversion may not work on some versions, and may be convertable to the jpg on another system 
   (if this errors out, we still have the dot file)  
   
-  exec "dot -Tjpg #{infile}.dot -o #{infile}.jpg"
+      exec "dot -Tjpg #{infile}.dot -o #{infile}.jpg"
 
 
 * i4_processes - the command output is piped to this file
