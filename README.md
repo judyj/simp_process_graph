@@ -10,7 +10,7 @@ Lines are color-alternated to keep them distinct.
 
 Files included
 
-* plot_ip_process.rb - ruby code to create the plots
+* graph_ip_process.rb - ruby code to create the plots
 
   note - there are 2 lines that would be most commonly commented out:
   comment out for a test file (would be called i4_processes)
@@ -35,5 +35,8 @@ $yum install ruby
 $yum install 'graphviz*'
 
 $gem install gviz
+
+Run:
+$ ruby graph_ip_process.rb
 
 note: to test with known data, rename the i4_processes_simple or i4_processes_complex to ip_processes and comment out the line that does the lsof
