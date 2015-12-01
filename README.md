@@ -1,4 +1,4 @@
-# process_graph_tool
+# simp_process_graph
 This holds the tool we are using to draw the process graphs
 
 This code allows you to plot the communications between your host and others.
